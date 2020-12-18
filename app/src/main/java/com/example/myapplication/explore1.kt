@@ -16,7 +16,7 @@ class explore1 : AppCompatActivity() {
         setContentView(R.layout.activity_explore)
 
         val edit : EditText = findViewById(R.id.edit)
-        val search_edit : Button = findViewById(R.id.search_edit)
+        val search_edit : Button = findViewById(R.id.search_edit) 
 
         search_edit.setOnClickListener{
             val address = "https://" + edit.text.toString()
