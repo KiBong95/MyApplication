@@ -2,15 +2,15 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8BC34A"
+    android:background="#5575CA"
     android:orientation="vertical"
     >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textAlignment="center"
-        android:text="김인애"
-        android:textSize="80dp"
-        android:textColor="#ffffff"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="전달"
+        android:id="@+id/button3"
+        android:background="#C8A0A0"
+        />
 </LinearLayout>
